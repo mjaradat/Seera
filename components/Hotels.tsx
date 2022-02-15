@@ -11,7 +11,7 @@ const Hotel: NextPage<Props> = ({ hotels, className }) => {
                         // <div key={`${hotel.price}-${idx}`}>
                         //     {hotel.name}
                         // </div>
-                        <div className='card mb-3' key={`${hotel.name.replaceAll(' ', '')}-${idx}`} >
+                        <div className='card mb-3' key={`${hotel.available_on}-${idx}`} >
                             <div className='card-body'>
                                 <div className="d-flex justify-content-between">
                                     <h5 className='card-title m-0 p-0'>
